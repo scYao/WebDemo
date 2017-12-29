@@ -1,0 +1,146 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #A5A5A5;
+    line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, em {
+    padding: 0;
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+    float: none;
+}
+
+a:hover {
+    color: #cc0000;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    border: none;
+}
+
+/*topLink start*/
+#topLink {
+    width: 1000px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+    background: url("../images/topbar.gif") repeat-x;
+}
+
+#topLink span {
+    float: right;
+}
+
+/*topLink end*/
+
+/*header start*/
+#header {
+    width: 1000px;
+    height: 279px;
+    margin: 0 auto;
+    background-image: url("../images/header.jpg");
+}
+
+#header .topText {
+    width: 410px;
+    height: auto;
+    padding: 150px 0 0 280px;
+}
+
+#header .topText h1 {
+    color: #ff9600;
+    font-size: 21px;
+    font-family: "Microsoft YaHei";
+}
+
+#header .topText p {
+    color: #007e34;
+    padding: 10px 0 0 0;
+}
+
+/*header end*/
+
+/*menu start*/
+#menu {
+    width: 1000px;
+    height: 52px;
+    background: url("../images/menu_bg.jpg") repeat-x center top;
+    margin: 0 auto;
+    border: #ff6801 solid;
+    border-width: 0 0 4px 0;
+    padding: 2px 0 0 0;
+}
+
+#menu ul li {
+    float: left;
+    background: url("../images/nav_line.png") no-repeat left center;
+}
+
+#menu ul li.menu1{
+    float: left;
+    background: none;
+
+}
+
+#menu ul li a:link, #menu ul li a:visited {
+    font-size: 21px;
+    color: #fff;
+    display: inline-block;
+    height: 52px;
+    line-height: 52px;
+    font-family: "Microsoft YaHei";
+    padding: 0 40px;
+}
+
+
+#menu ul li a:hover{
+    background: url("../images/navon.jpg") repeat-x;
+}
+/*menu end*/
+
+/*main start*/
+#main{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    background: pink;
+    padding: 16px 0 0 0;
+}
+
+#main .content{
+    width: 705px;
+    min-height: 500px;
+    float: left;
+    background: lightgreen;
+}
+
+#main .content .topic{
+    width: 703px;
+    min-height: 200px;
+    float: left;
+    border: 1px solid #e4e4e4;
+    background: white;
+}
+
+#main .sideBar{
+    width: 278px;
+    min-height: 500px;
+    float: right;
+    background: yellow;
+}
+/*main end*/
