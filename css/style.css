@@ -91,7 +91,7 @@ img {
     background: url("../images/nav_line.png") no-repeat left center;
 }
 
-#menu ul li.menu1{
+#menu ul li.menu1 {
     float: left;
     background: none;
 
@@ -107,14 +107,14 @@ img {
     padding: 0 40px;
 }
 
-
-#menu ul li a:hover{
+#menu ul li a:hover {
     background: url("../images/navon.jpg") repeat-x;
 }
+
 /*menu end*/
 
 /*main start*/
-#main{
+#main {
     width: 1000px;
     height: 1000px;
     margin: 0 auto;
@@ -122,14 +122,14 @@ img {
     padding: 16px 0 0 0;
 }
 
-#main .content{
+#main .content {
     width: 705px;
     min-height: 500px;
     float: left;
     background: lightgreen;
 }
 
-#main .content .topic{
+#main .content .topic {
     width: 703px;
     min-height: 200px;
     float: left;
@@ -137,10 +137,234 @@ img {
     background: white;
 }
 
-#main .sideBar{
+#main .content .topic span {
+    height: 39px;
+    line-height: 39px;
+    display: inline-block;
+}
+
+#main .content .topic span.title {
+    font-size: 20px;
+    color: #fff;
+    background: url("../images/ltbg.gif") repeat-x;
+    font-family: "Microsoft YaHei";
+    padding: 0 20px;
+}
+
+#main .content .topic span.rlink {
+    float: right;
+    padding: 0 15px 0 0;
+}
+
+#main .content .topic .topcon {
+    width: 675px;
+    padding: 20px 15px;
+    border: solid #4e8f0c;
+    border-width: 3px 0 0 0;
+}
+
+#main .content .topic .topcon .hot {
+    float: left;
+    background: #f2f2f2;
+    padding: 9px;
+}
+
+#main .content .topic .topcon .hot .hottext {
+    width: 248px;
+    background: #fff;
+    padding: 7px 10px 20px 10px;
+
+}
+
+#main .content .topic .topcon .hot .hottext h3 {
+    font-size: 14px;
+    text-align: center;
+}
+
+#main .content .topic .topcon .hot .hottext p {
+    text-indent: 24px;
+}
+
+#main .content .topic .topcon .hotrbox {
+    float: right;
+    padding: 0 0 20px 0;
+}
+
+#main .content .topic .topcon .hotrbox h3 {
+    padding: 3px;
+    float: left;
+    border: 1px solid #e4e4e4;
+}
+
+#main .content .topic .topcon .hotrbox h3 img {
+    width: 100px;
+    height: 80px;
+    float: left;
+}
+
+#main .content .topic .topcon .hotrbox p {
+    width: 230px;
+    line-height: 22px;
+    float: left;
+    padding: 0 0 0 10px;
+}
+
+#main .content .topic .topcon .hotrbox p strong {
+    font-size: 15px;
+    display: block;
+}
+
+#main .content .topic .topcon ul, #main .content .topic .topcon ul em {
+    float: right;
+
+}
+
+#main .content .topic .topcon ul {
+    border: dashed #ccc;
+    border-width: 1px 0 0 0;
+    padding: 10px 0 0 0;
+}
+
+#main .content .topic .topcon ul li {
+    width: 345px;
+    height: 23px;
+    padding: 0 0 0 11px;
+    background: url("../images/dot.png") no-repeat 0 5px;
+}
+
+#main .sideBar {
     width: 278px;
     min-height: 500px;
     float: right;
     background: yellow;
 }
+
 /*main end*/
+
+#main .content .homead {
+    float: left;
+    margin: 15px 0;
+}
+
+#main .sideBar {
+    width: 278px;
+    min-height: 5090px;
+    float: right;
+    background: white;
+}
+
+#main .sideBar .mrbox {
+    width: 276px;
+    border: 1px solid #e4e4e4;
+    float: left;
+}
+
+#main .sideBar .mrbox h2 {
+    font-size: 20px;
+    color: #ff8600;
+    padding: 11px 0 11px 10px;
+    font-family: "Microsoft YaHei";
+}
+
+#main .sideBar .mrbox ul .wbg {
+    width: 254px;
+    line-height: 18px;
+    padding: 11px;
+    float: left;
+}
+
+#main .sideBar .mrbox ul .wbg .tj img {
+    float: left;
+}
+
+#main .sideBar .mrbox ul .wbg .tj p {
+    float: left;
+    padding: 0 0 0 10px;
+}
+
+#main .sideBar .mrbox ul .wbg .tj p span {
+    display: block;
+}
+
+#main .sideBar .mrbox ul .wbg .tj p span strong {
+    color: white;
+    background: #5daf09;
+    display: inline-block;
+    height: 15px;
+    font-weight: bold;
+    padding: 0 8px;
+    margin: 0 0 3px 0;
+    font-family: "Microsoft YaHei";
+    border-radius: 2px;
+}
+
+#main .sideBar .mrbox ul .wbg .tj p .weblink a:link, #main .sideBar .mrbox ul .wbg .tj p .weblink a:visited {
+    color: #d19e02;
+}
+
+#main .sideBar .mrbox ul .wbg .tj p .weblink a:hover {
+    color: #cc0000;
+}
+
+#main .sideBar .mrbox ul .wbg .tj p em {
+    color: #ff0600;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: "Microsoft YaHei";
+}
+
+.clearfix {
+    background: lightgray;
+}
+
+#main .sideBar .mrbox .toplist .wbg {
+    float: left;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+}
+
+#main .sideBar .mrbox .toplist .wbg span {
+    font-family: "Microsoft YaHei";
+    color: #574f42;
+    font-weight: bold;
+    padding: 0 11px 0 0;
+}
+
+#main .sideBar .mrbox .toplist .wbg em {
+    float: right;
+}
+
+.dongtai {
+    margin: 15px 0 0 0;
+}
+
+#main .sideBar .mrbox .wxbg {
+    background-color: #f6f6f6;
+    min-height: 200px;
+    padding: 13px;
+}
+
+#main .sideBar .mrbox .wxbg .weixin{
+    width: 217px;
+    background: #fff;
+    border: 1px solid #e4e4e4;
+    padding: 18px 15px;
+}
+
+#main .sideBar .mrbox .wxbg .weixin .title{
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 0 0 15px;
+    border-radius: 2px;
+}
+
+.green{
+    background: #64b80b;
+}
+
+.orange{
+    background: #ff8600;
+    clear: both;
+}
