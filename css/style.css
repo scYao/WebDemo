@@ -116,7 +116,7 @@ img {
 /*main start*/
 #main {
     width: 1000px;
-    height: 1000px;
+    height: auto;
     margin: 0 auto;
     background: pink;
     padding: 16px 0 0 0;
@@ -345,14 +345,14 @@ img {
     padding: 13px;
 }
 
-#main .sideBar .mrbox .wxbg .weixin{
+#main .sideBar .mrbox .wxbg .weixin {
     width: 217px;
     background: #fff;
     border: 1px solid #e4e4e4;
     padding: 18px 15px;
 }
 
-#main .sideBar .mrbox .wxbg .weixin .title{
+#main .sideBar .mrbox .wxbg .weixin .title {
     color: #fff;
     height: 25px;
     line-height: 25px;
@@ -360,11 +360,258 @@ img {
     border-radius: 2px;
 }
 
-.green{
+.green {
     background: #64b80b;
 }
 
-.orange{
+.orange {
     background: #ff8600;
     clear: both;
 }
+
+#main .sideBar .mrbox .wxbg .weixin .wx_text {
+    display: block;
+    padding: 13px 0 0 0;
+}
+
+#main .sideBar .mrbox .wxbg .weixin .wx_text .img {
+    float: left;
+    width: 96px;
+    height: 96px;
+    background: url("../images/wx_logo.jpg");
+    background-size: cover;
+}
+
+#main .sideBar .mrbox .wxbg .weixin .wx_text {
+    color: black;
+    float: left;
+    width: 103px;
+    line-height: 25px;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+}
+
+#main .sideBar .mrbox .wxbg .weixin span strong {
+    color: black;
+    font-weight: bold;
+}
+
+#main .sideBar .mrbox .wxbg .weixin .wx_qr {
+    float: left;
+    padding: 12px 0 15px 0;
+}
+
+#main .sideBar .mrbox .wxbg .weixin .wx_qr .img {
+    width: 217px;
+    height: 217px;
+    float: left;
+    background: url("../images/two_dimension_code.jpg");
+    background-size: cover;
+}
+
+/*main end*/
+
+/*taobao start*/
+#taobao{
+    width: 998px;
+    min-height: 410px;
+    margin: 15px auto;
+    border: 1px solid #e4e4e4;
+}
+
+#taobao .tbpic{
+    float: left;
+    padding: 15px 15px 18px 15px;
+}
+
+#taobao .tbpic .img{
+    float: left;
+    width: 184px;
+    height: 48px;
+    background: url("../images/img.jpg");
+    background-size: cover;
+}
+
+#taobao .tbpic p{
+    width: 730px;
+    font-size: 14px;
+    padding: 0 0 0 30px;
+    float: left;
+}
+
+#taobao .tbbox  {
+    float: left;
+    height: 265px;
+    padding: 15px;
+    margin: 0 0 0 25px;
+    border: 3px solid #ececec;
+}
+
+#taobao .tbbox p{
+    color: #727272;
+    width: 174px;
+}
+
+#taobao .tbbox p em{
+    float: right;
+}
+
+#taobao .tbbox .tbcon  h2{
+    color: #494949;
+    background-color: white;
+    font-size: 21px;
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    font-family: "Microsoft YaHei"  ;
+}
+
+#taobao .tbbox .tbcon  span h3{
+    font-size: 14px;
+}
+
+#taobao .tbbox .tbcon span img{
+    padding: 5px 0;
+}
+
+#taobao .tbbox .tbcon{
+    position: relative;
+    left: 0;
+    top: -25px;
+}
+
+
+/*taobao end*/
+
+/*chanpin start*/
+#chanpin{
+    width: 998px;
+    min-height: 410px;
+    margin: 0 auto;
+    border: 1px solid #e4e4e4;
+    padding: 0 0 15px 0;
+}
+
+#chanpin .tbpic{
+    float: left;
+    padding: 15px 15px 18px 15px;
+    width: 968px;
+    border: solid #e4e4e4;
+    border-width: 0 0 1px 0;
+}
+
+#chanpin .tbpic .img{
+    float: left;
+    width: 262px;
+    height: 42px;
+    background: url("../images/hot.jpg");
+    background-size: cover;
+}
+
+#chanpin .tbpic p{
+    width: 652px;
+    font-size: 14px;
+    padding: 0 0 0 30px;
+    float: left;
+}
+
+#chanpin .cp_box{
+    width: 192px;
+    padding: 14px;
+    float: left;
+    margin: 15px 0 0 24px;
+}
+
+#chanpin .cp_box span{
+    width: 192px;
+    display: block;
+    padding: 3px 0;
+}
+
+#chanpin .cp_box .price{
+    font-size: 13px;
+    color: #727272;
+}
+
+.cplink a:link, .cplink a:visited{
+    color: #7d9818;
+    font-size: 14px;
+}
+
+.cplink a:hover{
+    color: #cc0000;
+}
+
+.money strong{
+    font-size: 18px;
+    color: #f60;
+    font-family: Arial;
+}
+
+.cpnum strong{
+    color: #7d9818;
+    font-weight: bold;
+}
+
+#chanpin .cp_box .check{
+    border: 1px solid #d7d7d7;
+    background: white;
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 5px 0 0 70px;
+}
+
+#chanpin .cp_box .check a:link,#chanpin .cp_box .check a:visited{
+    color: #f60;
+}
+#chanpin .cp_box .check a:hover{
+    color: #cc0000;
+}
+
+#chanpin .cp_box:hover{
+    background: #f1f1f1;
+}
+/*chanpin end*/
+
+/*copyRight start*/
+#copyRight{
+    width: 100%;
+    color: black;
+    border: solid #e4e4e4;
+    border-width: 0 0 1px 0;
+}
+
+#copyRight p{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 25px 0 10px 0;
+}
+
+#copyRight em{
+    float: right;
+}
+/*copyRight end*/
+
+#flink{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+#flink ul li{
+    float: left;
+    padding: 0 30px 0 0;
+}
+
+#flink a:link,#flink a:visited{
+    color: #919191;
+}
+
+#footer{
+    width: 100%;
+    color: black;
+    background-color: #e9e9e9;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
